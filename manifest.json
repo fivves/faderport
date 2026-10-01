@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.fivves.faderport",
+  "name": "FaderPort",
+  "version": "1.0.0",
+  "author": "Eddie Lucitt",
+  "license": "MIT",
+  "description": "Assign the buttons, app slots and encoder of a PreSonus FaderPort FP2 from a bar panel.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "FaderPort",
+    "description": "Assign FP2 buttons and the encoder; edits ~/.config/faderport/mappings.json",
+    "category": "Audio",
+    "allowMultiple": false
+  }
+}

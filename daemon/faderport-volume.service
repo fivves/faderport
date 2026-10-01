@@ -1,0 +1,12 @@
+[Unit]
+Description=FaderPort Volume Control Daemon
+After=pipewire.service wireplumber.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u %h/.local/bin/faderport-volume.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
