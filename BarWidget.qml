@@ -15,7 +15,7 @@ BarWidget {
     id: button
     anchors.fill: parent
     bar: root.bar
-    text: "🎚️"
+    text: "󱕃"
     tooltipText: "FaderPort"
     onPressed: function(b) {
       if (b === Qt.LeftButton) root.toggle()

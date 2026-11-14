@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here.
 
+## [1.0.1] - 2026-11-13
+
+- Bar icon is now a monochrome Nerd Font glyph (`nf-md-tune_vertical_variant`)
+  instead of the 🎚️ color emoji, so it inherits the theme foreground color and
+  matches every other bar icon. Color emoji fonts ignore the widget's `color`.
+
 ## [1.0.0] - 2026-10-01
 
 Initial release.
