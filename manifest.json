@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.fivves.faderport",
   "name": "FaderPort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Eddie Lucitt",
   "license": "MIT",
   "description": "Assign the buttons, app slots and encoder of a PreSonus FaderPort FP2 from a bar panel.",
